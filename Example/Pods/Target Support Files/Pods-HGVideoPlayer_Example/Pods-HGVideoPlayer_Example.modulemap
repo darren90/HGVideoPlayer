@@ -1,0 +1,6 @@
+framework module Pods_HGVideoPlayer_Example {
+  umbrella header "Pods-HGVideoPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
