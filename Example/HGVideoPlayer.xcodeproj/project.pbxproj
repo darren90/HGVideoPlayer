@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DAF5D0222512478CE429232 /* Pods_HGVideoPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0D37B090DD6285491367DE /* Pods_HGVideoPlayer_Tests.framework */; };
+		06B31ECF77408383FFB42FAA /* libPods-HGVideoPlayer_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3341043E2730BA5CDEF21C1 /* libPods-HGVideoPlayer_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,11 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		79BF41C139C3FE8CDCB81932 /* Pods_HGVideoPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD43703C2250D6716B0D79 /* Pods_HGVideoPlayer_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		891F78662081FCB300E76937 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 891F78652081FCB300E76937 /* libsqlite3.tbd */; };
+		891F78682081FCBB00E76937 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 891F78672081FCBB00E76937 /* libstdc++.tbd */; };
+		891F786A2081FCC600E76937 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 891F78692081FCC600E76937 /* libbz2.tbd */; };
+		891F786C2081FCDB00E76937 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 891F786B2081FCDB00E76937 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07BD43703C2250D6716B0D79 /* Pods_HGVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGVideoPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D94E501E3DC945FE0993017 /* HGVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HGVideoPlayer.podspec; path = ../HGVideoPlayer.podspec; sourceTree = "<group>"; };
+		4D94E501E3DC945FE0993017 /* HGVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGVideoPlayer.podspec; path = ../HGVideoPlayer.podspec; sourceTree = "<group>"; };
 		4F0D37B090DD6285491367DE /* Pods_HGVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HGVideoPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGVideoPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +63,16 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D29BDCAADFA84EF46FC0009 /* Pods-HGVideoPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGVideoPlayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGVideoPlayer_Tests/Pods-HGVideoPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9B45B8449FAA5803FA42EB92 /* Pods-HGVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGVideoPlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGVideoPlayer_Tests/Pods-HGVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		891F78602081F0A600E76937 /* KSYMediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSYMediaPlayer.framework; path = ../HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework; sourceTree = "<group>"; };
+		891F78652081FCB300E76937 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		891F78672081FCBB00E76937 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		891F78692081FCC600E76937 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		891F786B2081FCDB00E76937 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		9BDC942AC0077915865A854C /* Pods-HGVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGVideoPlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGVideoPlayer_Example/Pods-HGVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A051ACEEA5BD0059B1B91104 /* Pods-HGVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGVideoPlayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGVideoPlayer_Example/Pods-HGVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BEEEC6CB0A93E92B6510D527 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E65B703FDA91B85A1F77AF18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BEEEC6CB0A93E92B6510D527 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3341043E2730BA5CDEF21C1 /* libPods-HGVideoPlayer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGVideoPlayer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65B703FDA91B85A1F77AF18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +80,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891F786C2081FCDB00E76937 /* libz.tbd in Frameworks */,
+				891F786A2081FCC600E76937 /* libbz2.tbd in Frameworks */,
+				891F78682081FCBB00E76937 /* libstdc++.tbd in Frameworks */,
+				891F78662081FCB300E76937 /* libsqlite3.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				79BF41C139C3FE8CDCB81932 /* Pods_HGVideoPlayer_Example.framework in Frameworks */,
+				06B31ECF77408383FFB42FAA /* libPods-HGVideoPlayer_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +98,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2DAF5D0222512478CE429232 /* Pods_HGVideoPlayer_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +128,17 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				891F786B2081FCDB00E76937 /* libz.tbd */,
+				891F78692081FCC600E76937 /* libbz2.tbd */,
+				891F78672081FCBB00E76937 /* libstdc++.tbd */,
+				891F78652081FCB300E76937 /* libsqlite3.tbd */,
+				891F78602081F0A600E76937 /* KSYMediaPlayer.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				07BD43703C2250D6716B0D79 /* Pods_HGVideoPlayer_Example.framework */,
 				4F0D37B090DD6285491367DE /* Pods_HGVideoPlayer_Tests.framework */,
+				E3341043E2730BA5CDEF21C1 /* libPods-HGVideoPlayer_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +204,6 @@
 			children = (
 				9BDC942AC0077915865A854C /* Pods-HGVideoPlayer_Example.debug.xcconfig */,
 				A051ACEEA5BD0059B1B91104 /* Pods-HGVideoPlayer_Example.release.xcconfig */,
-				9B45B8449FAA5803FA42EB92 /* Pods-HGVideoPlayer_Tests.debug.xcconfig */,
-				8D29BDCAADFA84EF46FC0009 /* Pods-HGVideoPlayer_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +235,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HGVideoPlayer_Tests" */;
 			buildPhases = (
-				EB2DF96118DC161E22C1C690 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				DFC2955D6ED70F893FCEEB75 /* [CP] Embed Pods Frameworks */,
-				C980F7899AAD79E980E058D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,9 +312,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HGVideoPlayer_Example/Pods-HGVideoPlayer_Example-resources.sh",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/audioTrackIcon.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/audioTrackIcon@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/nav_btn_back_n.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/nav_btn_back_n@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/nav_btn_back_n@3x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/pb-seek-bar-bg@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/pb-seek-bar-btn@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/pb-seek-bar-fr@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/Player_brightness@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_fullscreen.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_fullscreen@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_fullscreen@3x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_lock-nor.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_lock-nor@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_lock-nor@3x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_shrinkscreen.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_shrinkscreen@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_shrinkscreen@3x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_slider.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_slider@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_slider@3x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_unlock-nor.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_unlock-nor@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/TFPlayer_unlock-nor@3x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_pause.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_pause@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_pause_big.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_pause_big@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_play.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_play@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_play_big.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Assets/VKVideoPlayer_play_big@2x.png",
+				"${PODS_ROOT}/../../HGVideoPlayer/Classes/HGVideoPlayer/HGVideoPlayerView.xib",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,71 +382,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HGVideoPlayer_Example/Pods-HGVideoPlayer_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HGVideoPlayer/HGVideoPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGVideoPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGVideoPlayer_Example/Pods-HGVideoPlayer_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C980F7899AAD79E980E058D3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGVideoPlayer_Tests/Pods-HGVideoPlayer_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DFC2955D6ED70F893FCEEB75 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HGVideoPlayer_Tests/Pods-HGVideoPlayer_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGVideoPlayer_Tests/Pods-HGVideoPlayer_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB2DF96118DC161E22C1C690 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HGVideoPlayer_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -482,6 +471,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -497,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,6 +512,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -530,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -545,9 +536,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HGVideoPlayer/HGVideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "HGVideoPlayer/HGVideoPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -560,16 +554,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HGVideoPlayer/HGVideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "HGVideoPlayer/HGVideoPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B45B8449FAA5803FA42EB92 /* Pods-HGVideoPlayer_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -593,7 +589,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D29BDCAADFA84EF46FC0009 /* Pods-HGVideoPlayer_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

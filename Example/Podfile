@@ -1,7 +1,8 @@
-use_frameworks!
+# use_frameworks!
 
 target 'HGVideoPlayer_Example' do
   pod 'HGVideoPlayer', :path => '../'
+#  pod 'HGVideoPlayer/KSYMediaPlayer_vod',          :path => '../'
 
 #  target 'HGVideoPlayer_Tests' do
 #    inherit! :search_paths
@@ -12,3 +13,5 @@ target 'HGVideoPlayer_Example' do
 #    pod 'Expecta+Snapshots'
 #  end
 end
+
+ 

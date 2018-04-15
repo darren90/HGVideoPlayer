@@ -18,5 +18,47 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HGVideoPlayer/Classes/**/*"
+  "source_files": [
+    "HGVideoPlayer",
+    "HGVideoPlayer/Classes/HGVideoPlayer/*.{h,m}",
+    "HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework/Headers/*.h"
+  ],
+  "public_header_files": [
+    "HGVideoPlayer/Classes/HGVideoPlayer/*.h",
+    "HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework/Headers/*.h"
+  ],
+  "resources": [
+    "HGVideoPlayer/Assets/*.png",
+    "HGVideoPlayer/Classes/HGVideoPlayer/**/*.{xib,nib}"
+  ],
+  "requires_arc": true,
+  "vendored_frameworks": "HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework",
+  "default_subspecs": "KSYMediaPlayer_vod",
+  "dependencies": {
+    "Masonry": [
+      "~>  1.0.2"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "KSYMediaPlayer_vod",
+      "vendored_frameworks": "HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework",
+      "libraries": [
+        "z",
+        "iconv",
+        "stdc++.6",
+        "bz2",
+        "stdc++"
+      ],
+      "source_files": [
+        "KSYMediaPlayer",
+        "HGVideoPlayer/Classes/framework/**/*",
+        "HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework/Headers/**/*.h"
+      ],
+      "frameworks": "VideoToolbox",
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-lObjC"
+      }
+    }
+  ]
 }
