@@ -90,8 +90,8 @@ typedef NS_ENUM(NSInteger,PanDirection) {
 -(void)initialize {
     self.tracButton.hidden = YES;
     
-    self.singleGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
-    self.doubleGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoTap:)];
+    self.singleGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap)];
+    self.doubleGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoTap)];
     self.doubleGesture.numberOfTapsRequired = 2;
     [self addGestureRecognizer:self.singleGesture];
     [self addGestureRecognizer:self.doubleGesture];
@@ -331,9 +331,12 @@ typedef NS_ENUM(NSInteger,PanDirection) {
 }
 
 #pragma mark - 单击 手势
-- (IBAction)handleSingleTap:(id)sender{
+- (void)handleSingleTap{
     self.topView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.8];
- 
+    if (self.isLockBtnEnable) {
+        return;
+    }
+    
     switch (self.showState) {
         case HGVideoPlayerSmall:{
             self.topView.hidden = YES;
@@ -377,7 +380,7 @@ typedef NS_ENUM(NSInteger,PanDirection) {
     [self addHiddeControlTimer];
 }
 
-- (IBAction)handleTwoTap:(id)sender{
+- (void)handleTwoTap{
     if (self.isLockBtnEnable) {
         return;
     }
@@ -586,7 +589,7 @@ typedef NS_ENUM(NSInteger,PanDirection) {
 
 #pragma makr 快进后退
 - (void)horizontalMoved:(CGFloat)value{
-    NSLog(@"快进快推-:%f",value);
+//    NSLog(@"快进快推-:%f",value);
     // 快进快退的方法
     NSString *style = @"";
     if (value < 0) {

@@ -6,16 +6,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ForwardBackView.h"
 
 typedef enum {
     HGVideoPlayerSmall, // 小屏播放
     HGVideoPlayerCell,  //单元格播放
     HGVideoPlayerFull,  //全屏播放
 } HGVideoPlayerShowState;
-
-
-#import "ForwardBackView.h"
-
 
 @protocol HGVideoPlayerViewDelegate <NSObject>
 
@@ -37,7 +34,6 @@ typedef enum {
 - (void)shareButtonTapped;//点击分享按钮
 
 //进度条相关
-
 -(void)progressSliderUp:(float)value;
 
 //得到当前的播放时间
@@ -58,7 +54,6 @@ typedef enum {
 @end
 
 
-
 @interface HGVideoPlayerView : UIView
 
 /** 初始化播放控件 */
@@ -77,7 +72,6 @@ typedef enum {
 @property (weak, nonatomic) IBOutlet UILabel *curPosLabel;
 @property (weak, nonatomic) IBOutlet UILabel *durationLabel;
 @property (nonatomic, weak) IBOutlet UISlider *progressSld;
-
 
 @property (weak, nonatomic) IBOutlet UILabel *bubbleMsgLabel;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityView;

@@ -41,7 +41,6 @@
 		9462C92D33D2A94FDCE9EC13EBC813ED /* TFVSegmentSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E769E1AD666CEAB1EF697FD084A20F /* TFVSegmentSlider.m */; };
 		94F2A3180922FEC085445D9C1239E014 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = C95268AC6E10959E56B37E27FEA7869D /* CodeDirectory */; };
 		9676E0B356A0D7FF64B4D7B4350A9E3B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */; };
-		96A486546AE89C4B95EAB462EBEBB4AE /* HGPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D35FB8BBE2ED3326CA5EDD3D33595B82 /* HGPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96C382C7559797547F7229E0C2553DF9 /* UISlider+VDTrackHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAEAFF682447CC7C1C25EEAFAB1E200 /* UISlider+VDTrackHeight.m */; };
 		97DC2E89B5BF35CB3903090B37DF206F /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 9BE77725F6B21A847DFE8C19DFBF247F /* CodeResources */; };
 		98890F61ADD75DD52BC7BE80C1E4C46B /* KSYMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 95310F6301189A67F6ED671E124C7DE2 /* KSYMediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,7 +57,6 @@
 		BA292C6FEF4233EB0DC47D266421DEEC /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = F91EB74410E28DFA2CE3B1A7692F7366 /* CodeSignature */; };
 		BBF47B85D84B0279F04C9DAF1B5C27BF /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD200FE1C7D4649E7786245613290C7B /* KSYQosInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C15E34CBCB3937A4325D66C7D85AF6 /* KSYQosInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF7377671CFE09F7EFFDFF8468351D71 /* HGPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F4EBEED5C1877DB4E54107338ADF4F /* HGPlayerView.m */; };
 		C16AA8EA0D88C0A65E8CBB1A7C6F9D1E /* HGVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A291A1ECA59D5D2BDFDC255386A23C /* HGVideoPlayer.m */; };
 		CC70777E34600E0AF753BEBFC68945BD /* HGVideoPlayer+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C14E0B5B9BA2BC1C99945FF613BB671 /* HGVideoPlayer+Utils.m */; };
 		D05F3ADF7E4A75A8C4C3E16186EC4D41 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,11 +122,10 @@
 		319C02506E4AE665CADBCA1470F70D7D /* KSYReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYReachability.h; sourceTree = "<group>"; };
 		379575C038736CAE7685E8AFD59A0E60 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		3C932E82169B79066174338AD2B63868 /* HGVideoPlayer+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGVideoPlayer+Utils.h"; sourceTree = "<group>"; };
-		45F4EBEED5C1877DB4E54107338ADF4F /* HGPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HGPlayerView.m; sourceTree = "<group>"; };
 		475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		483CFCD10BE2F2A177684BBDEA336E01 /* libHGVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHGVideoPlayer.a; path = libHGVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		483CFCD10BE2F2A177684BBDEA336E01 /* libHGVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHGVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4941C576E036540542AD3CBA6047980E /* TFPlayer_slider@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_slider@2x.png"; sourceTree = "<group>"; };
-		4E3CF63ADD6D20FC3A2276E80394A37D /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3CF63ADD6D20FC3A2276E80394A37D /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A7BDAF48AC0D000EF247A7B2541A1B /* HGVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGVideoPlayer-dummy.m"; sourceTree = "<group>"; };
 		5FB97F7FA28DF79CAB402D8BCD787E1C /* Pods-HGVideoPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGVideoPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		60E769E1AD666CEAB1EF697FD084A20F /* TFVSegmentSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFVSegmentSlider.m; sourceTree = "<group>"; };
@@ -156,23 +153,23 @@
 		8370484D522AA43C71742398BB3E0EB0 /* VKVideoPlayer_play.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VKVideoPlayer_play.png; sourceTree = "<group>"; };
 		83CBB249A8FEFDB7F5B12CE952E9DC60 /* VKVideoPlayer_play_big.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VKVideoPlayer_play_big.png; sourceTree = "<group>"; };
 		85BAF832325EE2E54136DE77B25632E4 /* TFPlayer_fullscreen@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_fullscreen@3x.png"; sourceTree = "<group>"; };
-		88872DB149E522F8B1B2FF4DDEC0C444 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
+		88872DB149E522F8B1B2FF4DDEC0C444 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = CodeRequirements; sourceTree = "<group>"; };
 		8A9AD4344B4ACF401343775D74702F59 /* Pods-HGVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8CD03AD958F265426C6F5ED618978DCE /* nav_btn_back_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "nav_btn_back_n@2x.png"; sourceTree = "<group>"; };
 		8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95310F6301189A67F6ED671E124C7DE2 /* KSYMediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMediaPlayer.h; sourceTree = "<group>"; };
 		9646112FC25137087A68853123D18B27 /* Pods-HGVideoPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGVideoPlayer_Example-dummy.m"; sourceTree = "<group>"; };
-		9BE77725F6B21A847DFE8C19DFBF247F /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
+		9BE77725F6B21A847DFE8C19DFBF247F /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
 		9DABBEE1D03A945571BE8FBDC7252A28 /* KSYMoviePlayerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMoviePlayerDefines.h; sourceTree = "<group>"; };
 		9E02F0DC788A3EB4BF062F295142F6DB /* TFPlayer_unlock-nor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_unlock-nor.png"; sourceTree = "<group>"; };
 		9EB2EB219E7642E0A03DBB73EF82A8CD /* Pods-HGVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9F495880F34238DAD9FB04E873236F85 /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
+		9F495880F34238DAD9FB04E873236F85 /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "CodeRequirements-1"; sourceTree = "<group>"; };
 		9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		A2F75C96947B2651F82FC18F66C43B49 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		A51A4BBBBD0F49D53CB06D8B98770668 /* libPods-HGVideoPlayer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HGVideoPlayer_Example.a"; path = "libPods-HGVideoPlayer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51A4BBBBD0F49D53CB06D8B98770668 /* libPods-HGVideoPlayer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGVideoPlayer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A592D49AC68DDA0B4C2CE2FBAFBF0F48 /* TFPlayer_shrinkscreen@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_shrinkscreen@3x.png"; sourceTree = "<group>"; };
 		A8F6EDD11E2B0E05FFC15603CEB9AF07 /* TFPlayer_unlock-nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_unlock-nor@2x.png"; sourceTree = "<group>"; };
 		A919D036E8CDB58D5E1FFCA997CD5507 /* Pods-HGVideoPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGVideoPlayer_Example-resources.sh"; sourceTree = "<group>"; };
@@ -184,33 +181,32 @@
 		BE1DD9DDEB35EFBFEDF531EBC78DED85 /* TFPlayer_slider@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_slider@3x.png"; sourceTree = "<group>"; };
 		BEC9C4BEC9ACA82D5ECD0C43A39298C7 /* BrightnessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BrightnessView.m; sourceTree = "<group>"; };
 		BF3FC10FD2C8B174BB993FC80B94CDB8 /* KSYMoviePlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMoviePlayerController.h; sourceTree = "<group>"; };
-		BFC539386373D25365A7DDA45FDEDA64 /* KSYMediaPlayer */ = {isa = PBXFileReference; includeInIndex = 1; name = KSYMediaPlayer; path = HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework/KSYMediaPlayer; sourceTree = "<group>"; };
+		BFC539386373D25365A7DDA45FDEDA64 /* KSYMediaPlayer */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = KSYMediaPlayer; path = HGVideoPlayer/Classes/framework/vod/KSYMediaPlayer.framework/KSYMediaPlayer; sourceTree = "<group>"; };
 		C186BE3F577E9779457FCC44FF1D231A /* ForwardBackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ForwardBackView.m; sourceTree = "<group>"; };
 		C1A4BB14CCB2ED7742194BDDEE70E48E /* TFPlayer_lock-nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_lock-nor@2x.png"; sourceTree = "<group>"; };
 		C205FE648B752B4160B3B87543441FB3 /* TFPlayerTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFPlayerTools.m; sourceTree = "<group>"; };
 		C6C68911CF4E803C255C5298D420D085 /* nav_btn_back_n@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "nav_btn_back_n@3x.png"; sourceTree = "<group>"; };
 		C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		C95268AC6E10959E56B37E27FEA7869D /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
+		C95268AC6E10959E56B37E27FEA7869D /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = CodeDirectory; sourceTree = "<group>"; };
 		CBAEAFF682447CC7C1C25EEAFAB1E200 /* UISlider+VDTrackHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISlider+VDTrackHeight.m"; sourceTree = "<group>"; };
 		CE5389305575C4848245D8B3441800B7 /* audioTrackIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = audioTrackIcon.png; sourceTree = "<group>"; };
 		CEB05424DAC7423E6626FA18BE7A00DD /* KSYMediaInfoProber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMediaInfoProber.h; sourceTree = "<group>"; };
 		D1F4B1D4C9858DE34D7ED9CE80C821C6 /* TFPlayer_fullscreen.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = TFPlayer_fullscreen.png; sourceTree = "<group>"; };
 		D249EF5868C02BA75DA83356BB68DA35 /* audioTrackIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "audioTrackIcon@2x.png"; sourceTree = "<group>"; };
-		D35FB8BBE2ED3326CA5EDD3D33595B82 /* HGPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HGPlayerView.h; sourceTree = "<group>"; };
 		D42F4EC739E4809465595583A93AB030 /* VKVideoPlayer_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "VKVideoPlayer_play@2x.png"; sourceTree = "<group>"; };
 		D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		D95C0BCF2242BF1216259FBC4EDF5632 /* HGVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGVideoPlayer.xcconfig; sourceTree = "<group>"; };
 		DDA85317AEC9797ECBE7CCA02D020DC4 /* VKVideoPlayer_pause_big@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "VKVideoPlayer_pause_big@2x.png"; sourceTree = "<group>"; };
 		DF2F60F48A099036DEF0A9ACD0E6086F /* TFPlayer_fullscreen@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "TFPlayer_fullscreen@2x.png"; sourceTree = "<group>"; };
 		E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		EA9D738C9C6B29D75837C335B0DC7C9B /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = module.modulemap; sourceTree = "<group>"; };
+		EA9D738C9C6B29D75837C335B0DC7C9B /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		EF6B4CC38C706693A82F1D7C41DD29E5 /* KSYMediaPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMediaPlayback.h; sourceTree = "<group>"; };
 		F07341911B04BAAEDEB5497419D8571E /* nav_btn_back_n.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = nav_btn_back_n.png; sourceTree = "<group>"; };
 		F3A80CB25E21D0FF8D44382F7F2C23CD /* VKVideoPlayer_play_big@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "VKVideoPlayer_play_big@2x.png"; sourceTree = "<group>"; };
 		F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		F91EB74410E28DFA2CE3B1A7692F7366 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
+		F91EB74410E28DFA2CE3B1A7692F7366 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = CodeSignature; sourceTree = "<group>"; };
 		F9AD73CC76DF86D0ADE3E73D37B31A00 /* HGVideoPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HGVideoPlayerView.m; sourceTree = "<group>"; };
 		FA391450137C9528F8BF279A7DDFA052 /* pb-seek-bar-fr@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pb-seek-bar-fr@2x.png"; sourceTree = "<group>"; };
 		FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
@@ -344,7 +340,6 @@
 				25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */,
 				4854BD850DB1ADEB02DE483F0C44E016 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -391,8 +386,6 @@
 				BEC9C4BEC9ACA82D5ECD0C43A39298C7 /* BrightnessView.m */,
 				FDFDE9B83BBDFA6B4F42F71BA4625A43 /* ForwardBackView.h */,
 				C186BE3F577E9779457FCC44FF1D231A /* ForwardBackView.m */,
-				D35FB8BBE2ED3326CA5EDD3D33595B82 /* HGPlayerView.h */,
-				45F4EBEED5C1877DB4E54107338ADF4F /* HGPlayerView.m */,
 				B6D9A79B8B38FDDD85B0F0BE77421423 /* HGVideoPlayer.h */,
 				61A291A1ECA59D5D2BDFDC255386A23C /* HGVideoPlayer.m */,
 				3C932E82169B79066174338AD2B63868 /* HGVideoPlayer+Utils.h */,
@@ -425,7 +418,6 @@
 			children = (
 				6444769C49C48143B7F1FD17A44DACB5 /* HGVideoPlayerView.xib */,
 			);
-			name = HGVideoPlayer;
 			path = HGVideoPlayer;
 			sourceTree = "<group>";
 		};
@@ -472,7 +464,6 @@
 			children = (
 				A637D6ED76B9FD48BEC518CF1A609708 /* KSYMediaPlayer.framework */,
 			);
-			name = vod;
 			path = vod;
 			sourceTree = "<group>";
 		};
@@ -489,7 +480,6 @@
 				14C15E34CBCB3937A4325D66C7D85AF6 /* KSYQosInfo.h */,
 				319C02506E4AE665CADBCA1470F70D7D /* KSYReachability.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -498,7 +488,6 @@
 			children = (
 				A25C197C88D7F00C1807E63D27319DE4 /* Headers */,
 			);
-			name = KSYMediaPlayer.framework;
 			path = KSYMediaPlayer.framework;
 			sourceTree = "<group>";
 		};
@@ -601,7 +590,6 @@
 			files = (
 				025F382E3CB73AA4F0C99719459E8E94 /* BrightnessView.h in Headers */,
 				D5A9D3F77FFD27D45CAE54294E828801 /* ForwardBackView.h in Headers */,
-				96A486546AE89C4B95EAB462EBEBB4AE /* HGPlayerView.h in Headers */,
 				130CA5651A3E4B1CBD0FF3E0EC64A938 /* HGVideoPlayer+Utils.h in Headers */,
 				51A0C6B4FFF5B88F5C7D5F39166DFB79 /* HGVideoPlayer.h in Headers */,
 				6349CBB6E3BA8D8E8F702A5C98E7475B /* HGVideoPlayerView.h in Headers */,
@@ -764,7 +752,6 @@
 				97DC2E89B5BF35CB3903090B37DF206F /* CodeResources in Sources */,
 				BA292C6FEF4233EB0DC47D266421DEEC /* CodeSignature in Sources */,
 				F953AADBC4D19CB057D300F40A827196 /* ForwardBackView.m in Sources */,
-				BF7377671CFE09F7EFFDFF8468351D71 /* HGPlayerView.m in Sources */,
 				CC70777E34600E0AF753BEBFC68945BD /* HGVideoPlayer+Utils.m in Sources */,
 				D23DDAE93D126CB1D3AD633325155E85 /* HGVideoPlayer-dummy.m in Sources */,
 				C16AA8EA0D88C0A65E8CBB1A7C6F9D1E /* HGVideoPlayer.m in Sources */,

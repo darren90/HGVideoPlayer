@@ -70,6 +70,9 @@ typedef enum {
 
 @property (nonatomic,copy) NSString *title;
 
+///是否是软解码
+@property (nonatomic, assign) BOOL isSoftwareDecoderMode;
+
 /***  视频总时间 单位：秒s */
 @property (nonatomic,assign)double totalDuraion;
 

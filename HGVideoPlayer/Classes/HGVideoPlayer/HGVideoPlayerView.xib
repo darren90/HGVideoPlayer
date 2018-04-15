@@ -75,7 +75,7 @@
                             </connections>
                         </button>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gCk-DL-XwT">
-                            <rect key="frame" x="110" y="9.5" width="197" height="31"/>
+                            <rect key="frame" x="110" y="10.5" width="197" height="31"/>
                             <connections>
                                 <action selector="dragProgressSliderAction:" destination="iN0-l3-epB" eventType="valueChanged" id="R2o-Lm-gNf"/>
                                 <action selector="progressSliderDownAction:" destination="iN0-l3-epB" eventType="touchDown" id="hX5-Jc-5oz"/>
@@ -126,7 +126,7 @@
                         <constraint firstAttribute="trailing" secondItem="A3J-6y-Kgb" secondAttribute="trailing" id="kSE-0M-zLj"/>
                         <constraint firstAttribute="bottom" secondItem="XTq-K6-Ehs" secondAttribute="bottom" id="qWK-ee-ON2"/>
                         <constraint firstItem="A3J-6y-Kgb" firstAttribute="leading" secondItem="yMW-yv-vFz" secondAttribute="trailing" id="rJv-Pg-tt5"/>
-                        <constraint firstItem="gCk-DL-XwT" firstAttribute="centerY" secondItem="tDR-vt-Ctj" secondAttribute="centerY" constant="-3" id="sPP-PU-5zL"/>
+                        <constraint firstItem="gCk-DL-XwT" firstAttribute="centerY" secondItem="tDR-vt-Ctj" secondAttribute="centerY" constant="-2" id="sPP-PU-5zL"/>
                         <constraint firstAttribute="bottom" secondItem="nSz-C9-ghs" secondAttribute="bottom" id="v5W-Jz-40y"/>
                         <constraint firstItem="nSz-C9-ghs" firstAttribute="leading" secondItem="XTq-K6-Ehs" secondAttribute="trailing" id="xye-lq-aaH"/>
                     </constraints>

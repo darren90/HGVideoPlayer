@@ -12,13 +12,16 @@
 @end
 
 
-
-
 @implementation UIImage (Utils)
 
 + (UIImage *)hg_imageNamed:(NSString *)name {
     NSBundle *currentBundle = [NSBundle bundleForClass:[HGVideoPlayer class]];
-    return [UIImage imageNamed:name inBundle:currentBundle compatibleWithTraitCollection:nil];
+    if (@available(iOS 8.0, *)) {
+        return [UIImage imageNamed:name inBundle:currentBundle compatibleWithTraitCollection:nil];
+    } else {
+        // Fallback on earlier versions
+        return [UIImage imageNamed:name];
+    }
 }
 
 @end

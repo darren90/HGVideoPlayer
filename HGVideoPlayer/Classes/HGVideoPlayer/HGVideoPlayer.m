@@ -73,7 +73,7 @@
         self.view.autoresizesSubviews = true;
         _mPlayer.view.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
         //设置播放参数
-        _mPlayer.videoDecoderMode = MPMovieVideoDecoderMode_AUTO;
+        _mPlayer.videoDecoderMode = MPMovieVideoDecoderMode_Software;
         _mPlayer.scalingMode = MPMovieScalingModeNone;
         _mPlayer.shouldAutoplay = YES;
         _mPlayer.deinterlaceMode = MPMovieVideoDeinterlaceMode_Auto;
@@ -337,6 +337,10 @@
     return netString;
 }
 
+- (void)setIsSoftwareDecoderMode:(BOOL)isSoftwareDecoderMode {
+    _isSoftwareDecoderMode = isSoftwareDecoderMode;
+    self.mPlayer.videoDecoderMode = self.isSoftwareDecoderMode ? MPMovieVideoDecoderMode_Software : MPMovieVideoDecoderMode_Hardware;
+}
 
 #pragma mark - HGVideoPlayerViewDelegate 方法
 
