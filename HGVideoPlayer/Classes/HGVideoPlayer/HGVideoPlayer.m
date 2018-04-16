@@ -94,7 +94,16 @@
 }
 
 -(void)playUrls:(NSArray *)urls title:(NSString *)title seekToPos:(long)pos {
+    if (urls.count == 0) return;
 
+    self.title = title;
+    [self quicklyStopMovie];
+    if (pos > 5)  pos -= 5;//时间自动向前5秒，提升用户体验
+    self.lastWatchPos = pos;//lastWatchPos：秒，pos：毫秒   -- 1秒=1000毫秒
+    
+    [self.mPlayer setUrl:nil fileList:urls];
+    [self.mPlayer prepareToPlay];
+    [self.view startActivityWithMsg:@"Loading..."];
 }
 
 - (void)setPlayUrl:(NSURL *)playUrl {
@@ -118,7 +127,6 @@
     [self.mPlayer prepareToPlay];
     [self.view startActivityWithMsg:@"Loading..."];
 }
-
 
 -(void)quicklyStopMovie {
     self.view.progressSld.value = 0.0;

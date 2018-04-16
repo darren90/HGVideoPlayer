@@ -87,7 +87,6 @@ typedef enum {
 
 -(IBAction)fulllScrenAction:(UIButton *)sender;
 
-
 #pragma mark - 切换Model
 -(IBAction)switchVideoViewModeButtonAction:(id)sender;
 #pragma mark - reset
@@ -101,7 +100,6 @@ typedef enum {
 #pragma mark - 锁屏按钮
 - (IBAction)lockButtonClick:(UIButton *)sender;
 
-
 //*快进view*/
 @property (nonatomic,weak)ForwardBackView * forwardView;
 
@@ -110,7 +108,6 @@ typedef enum {
 
 /// default HGVideoPlayerSmall
 @property (nonatomic, assign) HGVideoPlayerShowState showState;
-
 
 /**
  *  v3是否小屏播放 - NO：展示锁屏按钮
@@ -129,12 +126,13 @@ typedef enum {
 -(void)setBtnEnableStatus:(BOOL)enable;
 
 /**
- *  是否播放的是本地资源
+ *  是否播放的是本地资源 以便播放本地视频的时候视频不受loading及网络切换的打扰
  */
-@property (nonatomic,assign)BOOL isPlayLocalFile;//我增加的字段，以便播放本地视频的时候视频不受打扰
+@property (nonatomic,assign)BOOL isPlayLocalFile;
 
-
-//设置播放/暂停时按钮的状态， 播放 --> 暂停 :YES
+/**
+ *  设置播放/暂停时按钮的状态， 播放 --> 暂停 :YES
+ */
 - (void)setPlayButtonsSelected:(BOOL)selected ;
 
 /**
